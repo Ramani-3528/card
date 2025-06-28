@@ -170,6 +170,9 @@ footer{
         font-weight: 600;
         padding: 2rem 0rem;
     }
+    h2{
+        padding-bottom: 1rem;
+    }
     li{
         padding: 0.5rem;
     }
