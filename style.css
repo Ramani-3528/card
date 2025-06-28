@@ -160,5 +160,9 @@ footer{
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 
 @media (max-width: 576px){
-    
+    .cardHeader figure img{
+        height: 12rem;
+        width: auto;
+        /* border-radius: 0rem 7rem 0rem 0rem; */
+    }
 }
