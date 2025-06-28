@@ -162,7 +162,7 @@ footer{
 @media (max-width: 576px){
     .grid-3{
         display: grid;
-        grid-column-start: 1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
     }
     h1{
