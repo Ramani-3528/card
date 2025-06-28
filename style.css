@@ -160,9 +160,24 @@ footer{
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 
 @media (max-width: 576px){
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 1rem;
+    }
+    h2{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    li{
+        padding: 0.2rem;
+    }
+    .fullStackContainer{
+        padding-top: 0.5rem;
+    }
     .cardHeader figure img{
-        height: 12rem;
+        height: 10rem;
         width: auto;
-        /* border-radius: 0rem 7rem 0rem 0rem; */
+        border-radius: 0rem 5rem 0rem 0rem;
     }
 }
