@@ -37,7 +37,7 @@ body{
 }
 
 :root{
-    --primaryColor: #363739;
+    --primaryColor: #2d2d2d;
     --secondaryColor: #ffffff00;
     --DarkColor: #0a0a0a;
     --lightColor: rgba(97, 97, 97, 0.909);
