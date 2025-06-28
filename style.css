@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 0.1rem solid red; */
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(./assets/images/bg_image.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto";
+    font-family: "Playfair Display";
+}
+
+::-webkit-scrollbar{
+    width: 1.5rem;
+    height: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(253, 254, 254);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(205, 205, 205);
+}
+
+:root{
+    --primaryColor: #363739;
+    --secondaryColor: #ffffff00;
+    --DarkColor: #0a0a0a;
+    --lightColor: rgba(97, 97, 97, 0.909);
+    --headingFont: 4rem;
+    --subHeadingFont: 2rem;
+    --regularFont: 1.6rem;
+    --ffprimary: "Playfair Display"; 
+    --ffsecondary: "Roboto";
+}
+
+.componentSpacing{
+    padding: 1rem 0rem;
+}
+
+.screensize-1{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.screensize-2{
+    max-width: 700px;
+    margin: auto;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding: 0rem 1rem;
+}
+
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    font-family: var(--ffsecondary);
+    font-size: var(--regularFont);
+    font-weight: 500;
+    color: var(--DarkColor);
+    list-style-type: none;
+    padding: 0.7rem;
+}
+
+h1{
+    font-family: var(--ffprimary);
+    font-size: var(--headingFont);
+    font-weight: 800;
+    color: var(--primaryColor);
+    text-shadow: 0.3rem 0.3rem 5px var(--lightColor);
+    padding-top: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-family: var(--ffprimary);
+    font-size: var(--subHeadingFont);
+    font-weight: 700;
+    text-shadow: 0.3rem 0.3rem 5px var(--lightColor);
+    color: var(--primaryColor);
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height:auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+.fullStackContainer{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-color{
+    background-color: var(--secondaryColor);
+    backdrop-filter: blur(0.2rem);
+}
+
+.cardHeader figure img{
+    height: 17rem;
+    width: auto;
+    border-radius: 0rem 7rem 0rem 0rem;
+}
+
+.border-radius{
+    /* border: 0.5rem solid var(--DarkColor); */
+    border-radius: 0rem 8rem;
+    box-shadow: 5px 10px 20px var(--lightColor);
+}
+
+.cardMain{
+    padding: 1rem 0rem;
+}
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+@media (max-width: 576px){
+    
+}
