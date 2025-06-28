@@ -160,6 +160,11 @@ footer{
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 
 @media (max-width: 576px){
+    .grid-3{
+        display: grid;
+        grid-column-start: 1fr;
+        gap: 2rem;
+    }
     h1{
         font-size: 3rem;
         font-weight: 600;
