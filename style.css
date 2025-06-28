@@ -176,8 +176,4 @@ footer{
     .fullStackContainer{
         padding-top: 1rem;
     }
-    .cardHeader figure img{
-        height: 20rem;
-        width: auto;
-    }
 }
